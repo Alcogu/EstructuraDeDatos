@@ -98,9 +98,6 @@ public class ListaDoble {
     
         }
         
-        aux.setDato(nuevoDato);
-    
-    }
-    
-    
+        aux.setDato(nuevoDato);    
+    }    
 }

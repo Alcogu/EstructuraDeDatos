@@ -54,7 +54,7 @@ public class Pila {
             System.out.println("No existen elementos en la pila");
         } else {
            
-            System.out.println("dato ( " + tope.getDato().getNombre() + " )" + " Ha sido eliminado");
+            System.out.println("dato" (  + tope.getDato().getNombre() + " )" + " Ha sido eliminado");
            
             tope = tope.getSiguiente();
 

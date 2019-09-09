@@ -8,7 +8,7 @@ public void floyd(int n, int[][] W, int[][] P, int[][] D)
 {
 	D = W;
 	for (int i = 0; i<n; i++)
-	 	for(j = 0; j<n; j++)
+	 	for(int j = 0; j<n; j++)
 	 		P[i][j] = 0;
 	 for (int k = 0; k < n; k++)
 	 	for(int i = 0; i < n; i++)
